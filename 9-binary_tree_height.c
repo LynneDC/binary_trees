@@ -2,7 +2,7 @@
 
 /**
  * find_max - find max between two numbers
- * @a: first number
+ * @a; first number
  * @b: second number
  *
  * Return: max
