@@ -4,7 +4,7 @@
  * binary_tree_preorder - goes through a binary tree using pre-
  * order transversal
  * @tree: pointer to root
- * @func: funtion to call for each node
+ * @func: function to call for each node
  *
  * Return: void
  */
