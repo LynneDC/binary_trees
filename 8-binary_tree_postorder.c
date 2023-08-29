@@ -4,7 +4,7 @@
  * binary_tree_postorder - goes through a binary tree using in-
  * order transversal
  * @tree: pointer to root
- * @func: funtion to call for each node
+ * @func: function to call for each node
  *
  * Return: void
  */
