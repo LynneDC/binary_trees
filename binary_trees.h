@@ -24,11 +24,10 @@ struct binary_tree_s *right;
 };
 
 typedef struct binary_tree_s binary_tree_t;
-
 typedef struct binary_tree_s bst_t;
 typedef struct binary_tree_s avl_t;
 typedef struct binary_tree_s heap_t;
-
+void print_num(int n);
 /* print prototypes and helperss*/
 
 void binary_tree_print(const binary_tree_t *tree);
@@ -48,5 +47,7 @@ size_t binary_tree_leaves(const binary_tree_t *tree);
 size_t binary_tree_nodes(const binary_tree_t *tree);
 int binary_tree_balance(const binary_tree_t *tree);
 int binary_tree_is_full(const binary_tree_t *tree);
+int find_max(int a, int b);
+size_t find_height(const binary_tree_t *tree);
 
 #endif
