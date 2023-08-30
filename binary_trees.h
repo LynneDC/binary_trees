@@ -49,5 +49,7 @@ int binary_tree_balance(const binary_tree_t *tree);
 int binary_tree_is_full(const binary_tree_t *tree);
 int find_max(int a, int b);
 size_t find_height(const binary_tree_t *tree);
+int binary_tree_is_perfect(const binary_tree_t *tree);
+int is_perfect(const binary_tree_t *tree, size_t d, size_t lev, size_t *c);
 
 #endif
