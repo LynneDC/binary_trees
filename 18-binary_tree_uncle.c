@@ -12,10 +12,10 @@ if (node == NULL || node->parent == NULL || node->parent->parent == NULL)
 return (NULL);
 
 binary_tree_t *parent = node->parent;
-binary_tree_t *grandparent = parent->parent;
+binary_tree_t *uncle = parent->parent;
 
-if (grandparent->left == parent)
-return (grandparent->right);
+if (uncle->left == parent)
+return (uncle->right);
 else
-return (grandparent->left);
+return (uncle->left);
 }
