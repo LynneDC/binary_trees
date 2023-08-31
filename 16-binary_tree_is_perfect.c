@@ -13,14 +13,16 @@ size_t d = 0, c = 0;
 if (tree == NULL)
 return (0);
 
-while (tree != NULL)
+const binary_tree_t *temp = tree;
+while (temp != NULL)
 {
 d++;
-tree = tree->left;
+temp = temp->left;
 }
 
 return (is_perfect(tree, d, 0, &c));
 }
+
 
 /**
 * is_perfect - Recursively checks if a binary tree is perfect.
