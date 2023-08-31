@@ -9,11 +9,11 @@
 int binary_tree_is_perfect(const binary_tree_t *tree)
 {
 size_t d = 0, c = 0;
+const binary_tree_t *temp = tree;
 
 if (tree == NULL)
 return (0);
 
-const binary_tree_t *temp = tree;
 while (temp != NULL)
 {
 d++;
